@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   @font-face {
+    font-family: "Poppins";
+    src: url("/Resources/Poppins-SemiBold.otf");
+   }
+body {
+    background-color: #e1bee7;
+    padding: 60px 100px;
+    font-family: Roboto;
+}
+h1 {
+    text-align: center;
+    color: #6a1b9a;
+    text-decoration: underline solid;
+    font-family: Poppins;
+}
+#container {
+    margin-top: 70px;
+    text-align: center;
+    background: #9575cd;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 50px black;
+    font-family: "Poppins";
+}
+.inputDiv {
+    display: inline-block;
+}
+.inp {
+    padding: 5px 10px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+label {
+    font-size: 20px;
+    font-weight: 400;
+}
